@@ -21,7 +21,7 @@ let myHeading = document.querySelector('h1');
     setUserName();
   } else {
     let storedName = localStorage.getItem('name');
-    myHeading.textContent = 'Hi' + storedName + ', !';
+    myHeading.textContent = 'Hi ' + storedName + ' !';
   }
   myButton.onclick = function() {
     setUserName();
@@ -32,6 +32,6 @@ let myHeading = document.querySelector('h1');
       setUserName();
     } else {
       localStorage.setItem('name', myName);
-      myHeading.textContent = 'Hi' + storedName + '!';
+      myHeading.textContent = 'Hi ' + storedName + ' !';
     }
   }
