@@ -21,7 +21,7 @@ let myHeading = document.querySelector('h1');
     setUserName();
   } else {
     let storedName = localStorage.getItem('name');
-    myHeading.textContent = 'Welcome ' + storedName + ', To My First Website!';
+    myHeading.textContent = 'Hi' + storedName + ', !';
   }
   myButton.onclick = function() {
     setUserName();
