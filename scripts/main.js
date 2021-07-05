@@ -32,6 +32,6 @@ let myHeading = document.querySelector('h1');
       setUserName();
     } else {
       localStorage.setItem('name', myName);
-      myHeading.textContent = 'Welcome ' + storedName + ', To My First Website!';
+      myHeading.textContent = 'Hi' + storedName + '!';
     }
   }
